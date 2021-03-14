@@ -43,7 +43,18 @@ body {
 .column.middle {
   width: 50%;
 }
-
+.column.middle img {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.column.side img {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .row:after {
   content: "";
   display: table;
